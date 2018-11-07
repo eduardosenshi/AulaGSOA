@@ -36,10 +36,11 @@ public class CasaNoturna{
             exibir(resposta);
         }
         
-       
-       
-       
-    
+    /**
+     *
+     * @param mensagemProUsuario
+     * @return
+     */
     public static int receberInt(String mensagemProUsuario) {
         String aux = showInputDialog(mensagemProUsuario);
         
